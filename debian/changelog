@@ -1,0 +1,27 @@
+flsdk-meta (0.0.4-3) unstable; urgency=medium
+
+  * Fix debian/control file error in dependencies list
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 26 Mar 2016 00:30:00 -0700
+
+flsdk-meta (0.0.4-2) unstable; urgency=medium
+
+  * Added flsdk-mxe meta package for MXE dependencies
+  * Add Doxygen dependencies as Suggests
+  * Move Wine into flsdk-mxe
+  * Update debian/copyright file
+  * Update debian/control description 
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 25 Mar 2016 22:00:00 -0700
+ 
+flsdk-meta (0.0.4-1) unstable; urgency=medium
+
+  * Add Wine and G++ to depends
+
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 11 Sep 2015 16:00:00 -0600
+ 
+flsdk-meta (0.0.3-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 09 Sep 2015 09:00:00 -0600

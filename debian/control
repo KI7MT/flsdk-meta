@@ -1,0 +1,94 @@
+Source: flsdk-meta
+Section: metapackages
+Priority: optional
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9.0.0), libfile-fcntllock-perl
+
+Package: flsdk-meta
+Architecture: any
+Depends: ${misc:Depends},
+         asciidoc,
+         automake,
+         dialog,
+         extra-xdg-menus,
+         fluid,
+         g++,
+         gettext,
+         git,
+         imagemagick,
+         libasound2-dev,
+         libcairo2-dev,
+         libfltk1.3-dev,
+         libgl1-mesa-dev,
+         libglu1-mesa-dev,
+         libhamlib-dev,
+         libhamlib-utils,
+         libjpeg8-dev,
+         libpng12-dev,
+         libpulse-dev,
+         librpc-xml-perl,
+         libsamplerate0-dev,
+         libsndfile1-dev,
+         libterm-readline-gnu-perl,
+         libtool,
+         libusb-dev,
+         libwww-perl,
+         libx11-dev,
+         libxext-dev,
+         libxft-dev,
+         libxinerama-dev,
+         libxmlrpc-core-c3-dev,
+         pkg-config,
+         portaudio19-dev,
+         texinfo,
+         xsltproc,
+         zlib1g-dev
+Suggests: doxygen,
+          graphviz,
+          mscgen,
+          cppcheck,
+          texlive
+Description: FLSDK Development Base Components.
+ This package will install all the required build dependecies for all
+ compiling static or shared versions of the FLDIGI Suite.
+
+Package: flsdk-mxe
+Architecture: any
+Section: metapackages
+Depends: ${misc:Depends},
+         autoconf,
+         automake,
+         autopoint,
+         bison,
+         bzip2,
+         flex,
+         gettext,
+         git,
+         g++,
+         gperf,
+         intltool,
+         libffi-dev,
+         libgdk-pixbuf2.0-dev,
+         libtool,
+         libltdl-dev,
+         libssl-dev,
+         libxml-parser-perl,
+         make,
+         openssl,
+         p7zip-full,
+         patch,
+         perl,
+         pkg-config,
+         python,
+         ruby,
+         scons,
+         sed,
+         unzip,
+         wine,
+         wget,
+         xz-utils
+Description: FLSDK MXE Cross Compiling Dependencies
+ This package will install all the required build dependecies for using MXE
+ to cross compile FLDIGI applicaitions for Windows.
