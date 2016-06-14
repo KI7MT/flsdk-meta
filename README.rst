@@ -28,7 +28,7 @@ Usage
 
 .. code-block:: bash
 
-   sudo add-apt-repository -y ppa:ki7mt/fldigi
+   sudo add-apt-repository -y ppa:ki7mt/flsdk
    sudo apt-get update
 
 - Install one or more of the meta packages, type the following
