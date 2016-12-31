@@ -1,6 +1,6 @@
 flsdk-meta (0.0.5-rc0-1) unstable; urgency=medium
 
-  * Updated for use with MXE and FLSDK v0.0.5
+  * Updated for use with MXE and FLSDK v0.0.5-rc0
 
  -- Greg Beam <ki7mt@yahoo.com>  Thu, 29 Dec 2016 22:30:00 -0700
 

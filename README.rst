@@ -2,25 +2,32 @@ FLSDK Nix Meta Package
 ======================
 Meta package to install Development & Runtime dependencies for:
 
-* Fldigi
+* Comptext
+* Comptty
 * Flamp
+* Fldigi
+* Fllog
 * Flmsg
+* Flnet
 * Flrig
 * Flwkey
-* Fllog
-* Flnet
 * Flwrap
 * Linsim
-* Comptty
-* Comptext
 
-flsdk-meta
+flsdk-native
 ----------
-Development and Runtime dependencies for all `FLDIGI`_ applications.
+Development and Runtime dependencies for all `FLDIGI`_ applications on
+suported Linux distributions.
 
-flsdk-mxe
+flsdk-wsl
 ---------
-Experimental package to install all dependencies needed for `MXE`_ cross compiling `FLDIGI`_ applications for Windows.
+Install all dependencies needed for `MXE`_ cross compiling `FLDIGI`_
+applications for Windows-10 Subsystem Linux (WSL).
+
+flsdk-docs
+---------
+Package to install all dependencies needed for to build manpages, HTML
+documentation, and Doxygen docs.
 
 Usage
 -----
@@ -35,8 +42,9 @@ Usage
 
 .. code-block:: bash
    
-   sudo apt-get install flsdk-meta
-   sudo apt-get install flsdk-mxe
+   sudo apt-get install flsdk-native
+   sudo apt-get install flsdk-wsl
+   sudo apt-get install flsdk-docs
 
 Upstream Project
 ----------------
@@ -46,5 +54,4 @@ Upstream Project
 
 .. _FLDIGI: https://sourceforge.net/projects/fldigi
 .. _MXE: http://mxe.cc/
-
 
