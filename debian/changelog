@@ -1,8 +1,24 @@
+flsdk-meta (0.0.5-rc0p2-1) unstable; urgency=medium
+
+  * Hot fix
+  * Remove redundant dependencies on unwanted packages
+  * Bump version - 0.0.5-rc0p2-1
+  * Fix dates in changelog
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 31 Dec 2016 02:30:00 -0700
+
+flsdk-meta (0.0.5-rc0p1-1~ki7mt~trusty) trusty; urgency=medium
+
+  * Hot fix
+  * Remove libtool-bin from flsdk-wsl for Trusty
+
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 30 Dec 2016 23:00:00 -0700
+
 flsdk-meta (0.0.5-rc0-1) unstable; urgency=medium
 
   * Updated for use with MXE and FLSDK v0.0.5-rc0
 
- -- Greg Beam <ki7mt@yahoo.com>  Thu, 29 Dec 2016 22:30:00 -0700
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 30 Dec 2016 22:30:00 -0700
 
 flsdk-meta (0.0.4-3) unstable; urgency=medium
 
